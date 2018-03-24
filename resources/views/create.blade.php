@@ -4,10 +4,10 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Create Purchase</div>
+            <div class="card text-white bg-info">
+                <div class="card-header">Create Purchase</div>
 
-                <div class="panel-body">
+                <div class="card-body text-dark bg-light">
                     @if (session('status'))
                     <div class="alert alert-success">
                         {{ session('status') }}
