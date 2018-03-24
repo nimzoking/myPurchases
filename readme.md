@@ -1,4 +1,4 @@
-## About lbc-book
+## About myPurchases
 
 This project is based on the book "Laravel: Learn By Coding" by Scott Hughes.  
 
