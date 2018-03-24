@@ -109,7 +109,7 @@ class PurchaseController extends Controller
         $purchases = Auth::user()
                 ->purchases()
                 ->orderBy('date', 'desc')
-                ->paginate(10);
+                ->paginate(5);
         
         // Load the view
         return view('browse', compact('purchases'));

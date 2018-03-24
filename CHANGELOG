@@ -8,6 +8,15 @@ Changed panel class to card class as part of change to Bootstrap 4
 
 Change project name to myPurchases in order to track changes added on top of the coding available from the orginal book.
 
-Plan to add additional features:
+#Planned Future Features
 
 1. Add AdminLte for main Dashboard
+2. Enhance reporting
+3. Introduce Search Function for Purchases
+
+
+# Changes Applied
+
+2018-03-24  Changes to login form and tidy up navbar on login.
+            Changes to browse form to change panel class to card class
+            Changes to browse form for pagination from 10 to 5

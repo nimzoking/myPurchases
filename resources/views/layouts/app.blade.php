@@ -25,8 +25,8 @@
                     </a>
                         <!-- Authentication Links -->
                         @guest
-                        <a class ="nav-item nav-link" href="{{ route('login') }}">Login</a>
-                        <a class ="nav-item nav-link" href="{{ route('register') }}">Register</a>
+                        <a class ="nav-item nav-link text-white bg-dark" href="{{ route('login') }}">Login</a>
+                        <a class ="nav-item nav-link text-white bg-dark" href="{{ route('register') }}">Register</a>
                         @else
                         <a class ="nav-item nav-link text-white bg-dark" href="{{ url('home') }}">Dashboard</a>
                         <a class ="nav-item nav-link text-white bg-dark" href="{{ url('create') }}">Create</a>
