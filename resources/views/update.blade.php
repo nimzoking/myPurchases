@@ -37,7 +37,7 @@
                             <label for="description">Description:</label>
                             <input type="text" class="form-control" id="description" name="description" value="{{ old('description', $purchase->description) }}">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-success">Submit</button>
                     </form>
                 </div>
             </div>
